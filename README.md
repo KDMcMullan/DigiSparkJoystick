@@ -11,6 +11,8 @@ So, an ADS1115 4-channel I2C ADC has been attached to the DigiSpark's PB0 (SDA) 
 
 At this time, no buttons are provisioned, but my controller is for a helicopter, and posesses no buttons. At a later time, I may add some with an I2C DIO expander. There are many available: PCF8575, MAX23017 and MAX7321 are popular candidates.
 
-Do what you will with this; it was an exercise in getting 4 good analog inputs from a DigiSpark using an I2C ADC.
+Do what you will with this; it was an exercise in getting 4 good analog inputs from a DigiSpark using an I2C ADC. It might have been less painful to simply code up an Arduino, but there'd be no fun in that.
+
+Couple of photos enclosed of the setup, including the handheld. There are 6 LEDs in the handheld unit. These are selected by a shift register. It might be fun to add teh DIO expander, then use that to drive the LEDs. Yeah. I hear you: it would be less painful to drive the LEDs directly from the IO expander...
 
 V01, Ken McMullan, 12-Mar-2023
